@@ -1,0 +1,6 @@
+local UIS = game.GetService:("UserInputService")
+local isMobile = UIS.TouchEnabled
+
+if isMobile then
+   warn("Players Is On Mobile")
+end
